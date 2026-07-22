@@ -25,7 +25,7 @@ const processSteps = [
 export default function HomePage() {
   return (
     <>
-      {/* HERO SECTION WITH VIGNETTE DARK NAVY GRADIENT & LIVE TELEMETRY CARD */}
+      {/* HERO SECTION WITH VIGNETTE DARK NAVY GRADIENT & OPERATIONS OVERVIEW CARD */}
       <section className="relative min-h-[760px] overflow-hidden bg-[#0A0F1D] text-white pt-16">
         {/* Subtle Warehouse Texture Overlay (~15% Visibility) */}
         <div 
@@ -77,49 +77,49 @@ export default function HomePage() {
             </FadeIn>
           </div>
 
-          {/* Redesigned Live Fleet Tracking Card */}
+          {/* Operations Overview Dashboard Card */}
           <FadeIn delay={0.3} className="hidden lg:block pt-8">
             <div className="relative mx-auto max-w-sm rounded-[24px] border border-white/20 bg-white/10 p-6 backdrop-blur-2xl shadow-2xl">
               <div className="flex items-center justify-between border-b border-white/10 pb-4">
                 <div className="flex items-center gap-3">
-                  <div className="h-10 w-10 rounded-[14px] bg-[#DC2626] flex items-center justify-center font-bold text-white shadow-md">
+                  <div className="h-10 w-10 rounded-[14px] bg-[#2563EB] flex items-center justify-center font-bold text-white shadow-md">
                     MV
                   </div>
                   <div>
-                    <p className="text-sm font-bold text-white tracking-wide">LIVE SHIPMENT</p>
-                    <p className="text-xs text-slate-300 font-mono">Container: MV-34872</p>
+                    <p className="text-sm font-bold text-white tracking-wide">OPERATIONS OVERVIEW</p>
+                    <p className="text-xs text-slate-300 font-mono">Mukhtalif Ventures Network</p>
                   </div>
                 </div>
                 <div className="flex items-center gap-1.5 rounded-full bg-emerald-500/20 px-3 py-1 border border-emerald-500/30">
                   <span className="h-2 w-2 rounded-full bg-emerald-400 animate-pulse" />
-                  <span className="text-xs font-semibold text-emerald-400">GPS Live</span>
+                  <span className="text-xs font-semibold text-emerald-400">Fleet Active</span>
                 </div>
               </div>
 
-              <div className="mt-5 space-y-4 font-mono text-xs">
+              <div className="mt-5 space-y-3 font-mono text-xs">
                 <div className="flex justify-between items-center bg-white/5 p-3 rounded-xl border border-white/5">
-                  <span className="text-slate-400">Route Origin:</span>
-                  <span className="text-white font-bold">Karachi Hub</span>
+                  <span className="text-slate-400 flex items-center gap-2"><TruckIcon className="h-3.5 w-3.5 text-blue-400" /> Active Vehicles:</span>
+                  <span className="text-white font-bold text-sm">128</span>
                 </div>
                 <div className="flex justify-between items-center bg-white/5 p-3 rounded-xl border border-white/5">
-                  <span className="text-slate-400">Destination:</span>
-                  <span className="text-white font-bold">Lahore Terminal</span>
+                  <span className="text-slate-400 flex items-center gap-2"><Package className="h-3.5 w-3.5 text-red-400" /> Shipments Today:</span>
+                  <span className="text-white font-bold text-sm">2,487</span>
                 </div>
                 <div className="grid grid-cols-2 gap-3">
                   <div className="bg-white/5 p-3 rounded-xl border border-white/5 text-center">
-                    <p className="text-slate-400 text-[10px]">EST. ARRIVAL</p>
-                    <p className="text-emerald-400 font-bold text-sm mt-1">2 hr 18 min</p>
+                    <p className="text-slate-400 text-[10px]">ON-TIME DELIVERY</p>
+                    <p className="text-emerald-400 font-bold text-sm mt-1">99.6%</p>
                   </div>
                   <div className="bg-white/5 p-3 rounded-xl border border-white/5 text-center">
-                    <p className="text-slate-400 text-[10px]">CARGO TEMP</p>
-                    <p className="text-amber-400 font-bold text-sm mt-1">4.0°C</p>
+                    <p className="text-slate-400 text-[10px]">TEMPERATURE LOADS</p>
+                    <p className="text-amber-400 font-bold text-sm mt-1">42 Active</p>
                   </div>
                 </div>
               </div>
 
               <div className="mt-5 pt-3 border-t border-white/10 flex items-center justify-between text-[11px] text-slate-300 font-sans">
-                <span className="flex items-center gap-1 text-emerald-400 font-semibold"><span className="h-1.5 w-1.5 rounded-full bg-emerald-400 animate-ping" /> Telemetry Active</span>
-                <span className="text-slate-400">Secured &amp; Verified</span>
+                <span className="text-slate-400">Nationwide Pakistan Coverage</span>
+                <span className="text-emerald-400 font-semibold">Live Dashboard</span>
               </div>
             </div>
           </FadeIn>

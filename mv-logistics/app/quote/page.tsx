@@ -99,10 +99,12 @@ export default function QuotePage() {
                       <label className="block text-[11px] font-bold text-ink-secondary uppercase tracking-wider mb-1.5">Service Needed</label>
                       <select className="w-full rounded-card border border-surface-border bg-slate-50 px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue focus:bg-white transition-all">
                         <option>Select Service...</option>
-                        <option>Road Freight</option>
-                        <option>Warehousing</option>
-                        <option>Healthcare / Pharma Distribution</option>
-                        <option>Cold Chain Logistics</option>
+                        <option>Local Logistics</option>
+                        <option>International Logistics</option>
+                        <option>Warehousing Management</option>
+                        <option>Clearing & Forwading</option>
+                        <option>Dangerous Goods Handling</option>
+                        <option>Sea Freight</option>
                       </select>
                     </div>
                     <div>
@@ -155,8 +157,8 @@ export default function QuotePage() {
         <div className="mt-8 text-center">
           <p className="text-xs text-ink-secondary flex items-center justify-center gap-2">
             Need immediate assistance? 
-            <a href="tel:+923001234567" className="text-blue font-bold inline-flex items-center gap-1 hover:underline">
-              <Phone className="h-3 w-3" /> +92 300 1234567
+            <a href="tel:+92 335 722 5516" className="text-blue font-bold inline-flex items-center gap-1 hover:underline">
+              <Phone className="h-3 w-3" /> +92 335 722 5516
             </a>
           </p>
         </div>
