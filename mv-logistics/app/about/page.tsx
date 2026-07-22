@@ -31,7 +31,7 @@ export default function AboutPage() {
           </FadeIn>
           <FadeIn delay={0.16}>
             <p className="mt-6 text-base leading-relaxed text-slate-600 md:text-lg max-w-2xl mx-auto font-sans">
-              Trusted since 1999. Delivering robust supply chain solutions across Healthcare, Retail, and Industrial sectors nationwide.
+              Mukhtalif Ventures (Pvt.) Ltd (MVPL) is a leading provider of distribution and channel management solutions to the pharmaceutical industry in Pakistan. Since its inception in 2018, MVPL has been committed to providing innovative and reliable services to its clients.
             </p>
           </FadeIn>
           <FadeIn delay={0.24}>
@@ -44,66 +44,87 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* INTEGRATED STATISTICS STRIP - Dark/Navy Blue Theme */}
+      {/* INTEGRATED STATISTICS STRIP - Dark/Navy Blue Theme with Individual Rounded Cards */}
       <section className="bg-[#0A0F1D] py-16 border-y border-white/10 text-white">
         <div className="container-page max-w-6xl px-4">
-          <div className="grid grid-cols-2 gap-8 md:grid-cols-4 text-center divide-y md:divide-y-0 md:divide-x divide-white/10">
-            <FadeIn className="p-4">
-              <div className="flex items-center justify-center gap-1.5 text-amber-400 mb-2">
-                <Trophy className="h-4 w-4" />
-                <span className="font-mono text-3xl md:text-4xl font-extrabold text-white">25+</span>
-              </div>
-              <p className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Years Experience</p>
-            </FadeIn>
-            <FadeIn delay={0.05} className="p-4">
+          <div className="text-center mb-10">
+            <span className="eyebrow text-amber-400">Achievement</span>
+            <h2 className="font-display text-3xl font-extrabold text-white mt-1">High Work Achievements</h2>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <FadeIn className="rounded-[24px] border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md shadow-lg">
               <div className="flex items-center justify-center gap-1.5 text-blue-400 mb-2">
-                <Users className="h-4 w-4" />
-                <span className="font-mono text-3xl md:text-4xl font-extrabold text-white">450+</span>
+                <Users className="h-5 w-5" />
+                <span className="font-mono text-3xl md:text-4xl font-extrabold text-white">50</span>
               </div>
-              <p className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Employees</p>
+              <p className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Company Employees</p>
             </FadeIn>
-            <FadeIn delay={0.1} className="p-4">
+            <FadeIn delay={0.05} className="rounded-[24px] border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md shadow-lg">
+              <div className="flex items-center justify-center gap-1.5 text-amber-400 mb-2">
+                <Trophy className="h-5 w-5" />
+                <span className="font-mono text-3xl md:text-4xl font-extrabold text-white">30+</span>
+              </div>
+              <p className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Satisfied Clients</p>
+            </FadeIn>
+            <FadeIn delay={0.1} className="rounded-[24px] border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md shadow-lg">
               <div className="flex items-center justify-center gap-1.5 text-red-500 mb-2">
-                <Truck className="h-4 w-4" />
-                <span className="font-mono text-3xl md:text-4xl font-extrabold text-white">800+</span>
+                <Truck className="h-5 w-5" />
+                <span className="font-mono text-3xl md:text-4xl font-extrabold text-white">100k</span>
               </div>
-              <p className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Vehicles Fleet</p>
+              <p className="text-xs uppercase tracking-wider text-slate-400 font-semibold">Thousand Tones Transported</p>
             </FadeIn>
-            <FadeIn delay={0.15} className="p-4">
-              <div className="flex items-center justify-center gap-1.5 text-emerald-400 mb-2">
-                <CheckCircle2 className="h-4 w-4" />
-                <span className="font-mono text-3xl md:text-4xl font-extrabold text-white">99.6%</span>
-              </div>
-              <p className="text-xs uppercase tracking-wider text-slate-400 font-semibold">On-Time Deliveries</p>
+          </div>
+        </div>
+      </section>
+
+      {/* OUR STORY & STRATEGY */}
+      <section className="section-pad bg-white">
+        <div className="container-page max-w-5xl">
+          <SectionHeading eyebrow="Our Strategy" title="Focused on the Right Strategy" align="center" />
+          <div className="mt-12 space-y-6 text-slate-600 text-sm leading-relaxed">
+            <FadeIn>
+              <p>
+                At MVPL, we understand the unique challenges faced by the pharmaceutical industry in Pakistan, such as the need for reliable temperature-controlled storage facilities, safe and secure transportation, and efficient distribution channels. To address these challenges, we have built a comprehensive portfolio of services that cater to the specific needs of our clients.
+              </p>
+            </FadeIn>
+            <FadeIn delay={0.08}>
+              <p>
+                Our services include API transportation, temperature-controlled storage facilities, goods transportation, clearing products from ports, product distribution, and staff transportation services. We have a team of experienced professionals who are committed to providing the highest quality services to our clients. We have established a reputation for excellence in the industry and have built long-term relationships with our clients based on trust and mutual respect.
+              </p>
+            </FadeIn>
+            <FadeIn delay={0.16}>
+              <p>
+                At MVPL, we believe in continuous improvement and innovation. We invest in the latest technology and equipment to ensure that we are providing the best possible solutions to our clients. We are constantly exploring new ways to improve our services and exceed our clients&apos; expectations.
+              </p>
             </FadeIn>
           </div>
         </div>
       </section>
 
       {/* MISSION & VISION */}
-      <section className="section-pad bg-white">
+      <section className="section-pad bg-[#F8FAFC]">
         <div className="container-page">
           <SectionHeading eyebrow="Our Core Purpose" title="Mission & Vision" align="center" />
           <div className="mt-12 grid gap-8 md:grid-cols-2 max-w-5xl mx-auto">
             <FadeIn>
-              <div className="rounded-[28px] border border-slate-200/80 bg-[#F8FAFC] p-8 h-full shadow-sm relative overflow-hidden border-l-4 border-l-[#DC2626] transition-all hover:shadow-md">
+              <div className="rounded-[28px] border border-slate-200/80 bg-white p-8 h-full shadow-sm relative overflow-hidden border-l-4 border-l-[#DC2626]">
                 <div className="h-12 w-12 rounded-[16px] bg-red-50 flex items-center justify-center text-[#DC2626] mb-6 shadow-sm">
                   <ShieldCheck className="h-6 w-6" strokeWidth={1.8} />
                 </div>
                 <h3 className="font-display text-xl font-bold text-[#111827]">Our Mission</h3>
                 <p className="mt-3 text-sm leading-relaxed text-slate-600">
-                  To move goods reliably and compliantly across Pakistan, so our clients never have to choose between speed and care.
+                  To become the preferred partner for pharmaceutical companies looking for efficient and cost-effective distribution solutions while moving goods reliably and compliantly across Pakistan.
                 </p>
               </div>
             </FadeIn>
             <FadeIn delay={0.1}>
-              <div className="rounded-[28px] border border-slate-200/80 bg-[#F8FAFC] p-8 h-full shadow-sm relative overflow-hidden border-l-4 border-l-[#2563EB] transition-all hover:shadow-md">
+              <div className="rounded-[28px] border border-slate-200/80 bg-white p-8 h-full shadow-sm relative overflow-hidden border-l-4 border-l-[#2563EB]">
                 <div className="h-12 w-12 rounded-[16px] bg-blue-50 flex items-center justify-center text-[#2563EB] mb-6 shadow-sm">
                   <Award className="h-6 w-6" strokeWidth={1.8} />
                 </div>
                 <h3 className="font-display text-xl font-bold text-[#111827]">Our Vision</h3>
                 <p className="mt-3 text-sm leading-relaxed text-slate-600">
-                  To be the logistics network Pakistan&apos;s healthcare and retail sectors trust by default, in every city we serve.
+                  To become the most reliable and trusted partner for pharmaceutical companies in Pakistan. We are committed to achieving this vision through our dedication, hard work, and innovation.
                 </p>
               </div>
             </FadeIn>
@@ -112,25 +133,25 @@ export default function AboutPage() {
       </section>
 
       {/* COMPANY TIMELINE */}
-      <section className="section-pad bg-[#F8FAFC]">
-        <div className="container-page max-w-4xl">
-          <SectionHeading eyebrow="Our Journey" title="Milestones that shaped our network" align="center" />
-          <div className="mt-16 relative border-l-2 border-slate-300 ml-4 md:ml-32 space-y-12">
-            {timeline.map((item, idx) => (
-              <FadeIn key={item.year} delay={idx * 0.08} className="relative pl-8 md:pl-12">
-                <div className="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-[#DC2626] border-4 border-[#F8FAFC] shadow-sm" />
-                <div className="md:absolute md:-left-32 md:top-1 md:w-24 md:text-right">
-                  <span className="font-mono text-lg font-bold text-[#DC2626]">{item.year}</span>
-                </div>
-                <div className="rounded-[24px] border border-slate-200 bg-white p-6 shadow-sm hover:shadow-md transition-shadow">
-                  <h4 className="font-display text-lg font-bold text-[#111827]">{item.title}</h4>
-                  <p className="mt-2 text-sm text-slate-600">{item.text}</p>
-                </div>
-              </FadeIn>
-            ))}
+<section className="section-pad bg-white">
+  <div className="container-page max-w-4xl">
+    <SectionHeading eyebrow="Our Journey" title="Milestones that shaped our network" align="center" />
+    <div className="mt-16 relative border-l-2 border-slate-300 ml-4 md:ml-32 space-y-12">
+      {timeline.map((item, idx) => (
+        <FadeIn key={item.year} delay={idx * 0.08} className="relative pl-8 md:pl-12">
+          <div className="absolute -left-[9px] top-1.5 h-4 w-4 rounded-full bg-[#DC2626] border-4 border-white shadow-sm" />
+          <div className="md:absolute md:-left-32 md:top-1 md:w-24 md:text-right">
+            <span className="font-mono text-lg font-bold text-[#DC2626]">{item.year}</span>
           </div>
-        </div>
-      </section>
+          <div className="rounded-[24px] border border-slate-200 bg-[#F8FAFC] p-6 shadow-sm hover:shadow-md transition-shadow">
+            <h4 className="font-display text-lg font-bold text-[#111827]">{item.title}</h4>
+            <p className="mt-2 text-sm text-slate-600">{item.text}</p>
+          </div>
+        </FadeIn>
+      ))}
+    </div>
+  </div>
+</section>
 
       {/* LEADERSHIP */}
       <section className="section-pad bg-[#0F172A] text-white">

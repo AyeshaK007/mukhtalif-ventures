@@ -71,8 +71,8 @@ export default function HomePage() {
               <div className="mt-8 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs font-medium text-slate-300">
                 <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-emerald-400" /> GDP Compliant</span>
                 <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-emerald-400" /> Cold Chain Certified</span>
-                <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-emerald-400" /> 25+ Years Experience</span>
-                <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-emerald-400" /> 300+ Partners</span>
+                <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-emerald-400" /> 6+ Years Experience</span>
+                <span className="flex items-center gap-1.5"><CheckCircle2 className="h-4 w-4 text-emerald-400" /> 30+ Partners</span>
               </div>
             </FadeIn>
           </div>
@@ -142,7 +142,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* ABOUT PREVIEW WITH OVERLAPPING 25+ YEARS CARD */}
+      {/* ABOUT PREVIEW WITH OVERLAPPING 6+ YEARS CARD */}
       <section className="section-pad bg-white">
         <div className="container-page grid items-center gap-14 md:grid-cols-2">
           <FadeIn className="relative">
@@ -156,7 +156,7 @@ export default function HomePage() {
             </div>
             {/* Overlapping Floating Badge */}
             <div className="absolute -bottom-6 -right-6 md:bottom-[-20px] md:right-[-20px] rounded-[20px] bg-[#0F172A] text-white p-6 shadow-2xl border border-white/10 backdrop-blur-xl z-10">
-              <p className="font-mono text-3xl font-extrabold text-[#2563EB]">25+ Years</p>
+              <p className="font-mono text-3xl font-extrabold text-[#2563EB]">6+ Years</p>
               <p className="text-xs font-medium text-slate-300 mt-1">Excellence in National Logistics</p>
             </div>
           </FadeIn>
@@ -268,33 +268,33 @@ export default function HomePage() {
         <div className="container-page relative max-w-6xl mx-auto px-4">
           <SectionHeading
             eyebrow="Why Choose Us"
-            title="A network built on twenty-five years of moving essential goods"
+            title="A network built on excellence in pharmaceutical distribution"
             align="center"
           />
           <div className="mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             <FadeIn>
               <div className="rounded-[24px] border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md shadow-lg transition-transform hover:-translate-y-1 h-full flex flex-col justify-center">
-                <span className="font-mono text-4xl font-extrabold text-white">300+</span>
-                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Cities Served</p>
+                <span className="font-mono text-4xl font-extrabold text-white">50</span>
+                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Company Employees</p>
               </div>
             </FadeIn>
             <FadeIn delay={0.05}>
               <div className="rounded-[24px] border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md shadow-lg transition-transform hover:-translate-y-1 h-full flex flex-col justify-center">
-                <span className="font-mono text-4xl font-extrabold text-white">1000+</span>
-                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Shipments Handled</p>
+                <span className="font-mono text-4xl font-extrabold text-white">30+</span>
+                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Satisfied Clients</p>
               </div>
             </FadeIn>
             <FadeIn delay={0.1}>
               <div className="rounded-[24px] border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md shadow-lg transition-transform hover:-translate-y-1 h-full flex flex-col justify-center">
-                <span className="font-mono text-4xl font-extrabold text-white">25+</span>
-                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Years Experience</p>
+                <span className="font-mono text-4xl font-extrabold text-white">100k</span>
+                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Tones Transported</p>
               </div>
             </FadeIn>
             <FadeIn delay={0.15}>
               <div className="rounded-[24px] border border-white/10 bg-white/5 p-8 text-center backdrop-blur-md shadow-lg transition-transform hover:-translate-y-1 h-full flex flex-col justify-center">
-                <span className="font-mono text-4xl font-extrabold text-white">100%</span>
-                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Coverage</p>
-                <p className="text-[10px] text-slate-500 mt-0.5">Nationwide &amp; Global</p>
+                <span className="font-mono text-4xl font-extrabold text-white">2018</span>
+                <p className="mt-2 text-xs uppercase tracking-wider text-slate-400 font-semibold">Established Year</p>
+                <p className="text-[10px] text-slate-500 mt-0.5">Industry Experience</p>
               </div>
             </FadeIn>
           </div>

@@ -14,130 +14,190 @@ export const services: Service[] = [
   {
     slug: 'local-logistics',
     title: 'Local Logistics',
-    short: 'Reliable domestic transportation and last-mile delivery solutions.',
+    short: 'Better Logistics solution provider in Pakistan trusted for warehousing, supply chain, and freight systems.',
     description:
-      'Our local logistics network ensures your cargo moves swiftly and securely across domestic routes with real-time tracking and dedicated fleet support.',
-    icon: 'truck',
-    features: ['300+ cities on the network', 'Real-time route visibility', 'Dedicated & shared fleet options', 'Proof-of-delivery on every drop'],
-    benefits: ['Fewer missed delivery windows', 'Lower cost per shipment at scale', 'Single point of contact for the whole route'],
+      'Mukhtalif Ventures Pvt Ltd. is making us one of the most diversified conglomerates in Pakistan. MVPL is a trusted and large logistics provider founded and promoted keeping private values in mind. We majorly focus on warehousing systems, supply chain systems, and freight systems that support all aspects of our clients’ requirements in Karachi and across key market centers in Pakistan.',
+    icon: 'Truck',
+    features: [
+      'Customized value-added logistics solutions for modern trade requirements',
+      'Safe logistics services on a large scale from pickup to destination',
+      'Comprehensive warehousing, supply chain, and freight management',
+      'Streamlined processes working quickly and efficiently'
+    ],
+    benefits: [
+      'Significant and meaningful client relationships built on trust',
+      'Transparent support understanding your core value focuses',
+      'Exclusive privately owned local company with legacy care',
+      'Dedicated local team taking care of your operations'
+    ],
     process: [
-      { title: 'Intake', text: 'Shipment details and delivery windows are confirmed against live fleet capacity.' },
-      { title: 'Routing', text: 'Loads are batched onto the most efficient trunk and last-mile routes.' },
-      { title: 'In-transit', text: 'Drivers scan at every checkpoint, updating the shipment timeline automatically.' },
-      { title: 'Delivery', text: 'Proof-of-delivery is captured and shared back within minutes.' },
+      { title: 'Intake & Planning', text: 'Comprehending client requirements and scheduling pickup protocols.' },
+      { title: 'Secure Handling', text: 'Safely transporting items from pickup location to the destination place.' },
+      { title: 'Warehousing & Staging', text: 'Managing inventory through structured storage and supply chain nodes.' },
+      { title: 'Final Delivery', text: 'Ensuring products arrive safely, quickly, and efficiently.' }
     ],
     faqs: [
-      { q: 'What is the average delivery window?', a: 'Most domestic routes deliver in 24–72 hours depending on distance and load type.' },
-      { q: 'Can I track a local shipment live?', a: 'Yes, every shipment on this service is visible in real time.' },
+      { q: 'What regions do you cover for local logistics?', a: 'We operate extensively out of Karachi and cover key market centers across Pakistan.' },
+      { q: 'Can solutions be customized for modern trade?', a: 'Yes, we offer customized value-added logistics solutions tailored to modern trade requirements.' }
     ],
   },
   {
     slug: 'international-logistics',
     title: 'International Logistics',
-    short: 'Seamless cross-border freight and global supply chain coordination.',
+    short: 'Going global? Let us handle sourcing, freight forwarding, customs clearance, and global trade compliance.',
     description:
-      'We bridge global markets with comprehensive international transport strategies, managing border compliance, documentation, and carrier partnerships.',
-    icon: 'globe',
-    features: ['Global carrier partnerships', 'Customs documentation handling', 'End-to-end supply chain coordination', 'Multi-modal transit options'],
-    benefits: ['Streamlined cross-border movement', 'Reduced regulatory compliance risks', 'Optimized international freight costs'],
+      'International logistics is critical for businesses operating in global markets, ensuring goods are delivered timely and cost-effectively. It encompasses sourcing, procurement, manufacturing, warehousing, distribution, customs clearance, import/export regulations, and freight forwarding.',
+    icon: 'Globe',
+    features: [
+      'Customs clearance, import/export regulations, and compliance management',
+      'Freight forwarding and international transportation management',
+      'Trade finance alignment and advanced logistics technology support',
+      'Streamlined global supply chain to reduce costs and improve delivery times'
+    ],
+    benefits: [
+      'Enhanced competitiveness in the global economy',
+      'Specialized knowledge and resources to control resource flow from origin to consumption',
+      'Optimized supply chains powered by industry best practices',
+      'Reliable navigation through complex global trade regulations'
+    ],
     process: [
-      { title: 'Consultation', text: 'Analyzing origin, destination, and regulatory paperwork requirements.' },
-      { title: 'Booking', text: 'Securing cargo space and planning international freight legs.' },
-      { title: 'Transit', text: 'Tracking movement across international borders and ports.' },
-      { title: 'Handover', text: 'Final customs clearance and local destination delivery.' },
+      { title: 'Sourcing & Procurement', text: 'Coordinating international origin checkpoints and compliance.' },
+      { title: 'Customs Clearance', text: 'Managing import/export regulations and trade documentation.' },
+      { title: 'Freight Forwarding', text: 'Overseeing global transport and carrier coordination.' },
+      { title: 'Final Distribution', text: 'Delivering goods efficiently to end customers.' }
     ],
     faqs: [
-      { q: 'Do you handle customs paperwork?', a: 'Yes, our team handles all required export and import documentation.' },
-      { q: 'What regions do you cover internationally?', a: 'We manage shipments connecting through major global trade lanes.' },
+      { q: 'What does international logistics cover?', a: 'It covers procurement, warehousing, distribution, customs clearance, and freight forwarding.' },
+      { q: 'How do you ensure cost-effective delivery?', a: 'By utilizing advanced logistics technology and optimized global supply chain routing.' }
     ],
   },
   {
     slug: 'warehousing-management',
     title: 'Warehousing Management',
-    short: 'Secure storage, inventory control, and order fulfillment services.',
+    short: 'State-of-the-art warehousing solutions with advanced security, fire suppression, and climate control technology.',
     description:
-      'State-of-the-art facilities equipped with modern inventory management systems to store, pick, pack, and distribute your goods efficiently.',
-    icon: 'warehouse',
-    features: ['24/7 monitored facilities', 'Barcode & RFID inventory control', 'Bonded and general storage', 'Pick, pack & fulfilment services'],
-    benefits: ['Lower carrying costs through shared space', 'Audit-ready inventory records', 'Faster order turnaround'],
+      'Mukhtalif Ventures Pvt Ltd. is a leading warehousing company operating since 2018, offering state-of-the-art solutions to startups and multinational corporations. Our strategically located facilities feature advanced security systems, fire suppression, and climate control technology.',
+    icon: 'Package',
+    features: [
+      'Advanced security systems and fire suppression infrastructure',
+      'Climate control technology providing a secure environment',
+      'Order fulfillment, inventory management, and transportation services',
+      'Real-time inventory tracking and reporting through our online portal'
+    ],
+    benefits: [
+      'Affordable and customized solutions tailored to unique business needs',
+      'Complete transparency and visibility into product movements',
+      'Round-the-clock customer service team addressing all queries',
+      'Trusted partnership ensuring secure storage and precise delivery'
+    ],
     process: [
-      { title: 'Onboarding', text: 'SKUs are mapped and inventory is received against a digital manifest.' },
-      { title: 'Storage', text: 'Goods are placed by zone according to handling requirements.' },
-      { title: 'Fulfilment', text: 'Orders are picked, packed and staged for outbound dispatch.' },
-      { title: 'Reporting', text: 'Stock levels and movements are reported on a live dashboard.' },
+      { title: 'Intake & Assessment', text: 'Analyzing unique warehousing needs and allocation.' },
+      { title: 'Secure Storage', text: 'Placing items in climate-controlled and monitored facilities.' },
+      { title: 'Inventory Control', text: 'Managing stock levels and real-time portal reporting.' },
+      { title: 'Fulfillment', text: 'Executing order processing and outbound delivery.' }
     ],
     faqs: [
-      { q: 'Do you offer short-term storage?', a: 'Yes, both short-term overflow and long-term contracted storage are available.' },
-      { q: 'Is inventory insured?', a: 'All stored inventory is covered under our facility insurance policy by default.' },
+      { q: 'Are your warehouses temperature-controlled?', a: 'Yes, our facilities feature climate control technology alongside advanced security systems.' },
+      { q: 'Can I track my inventory in real time?', a: 'Yes, clients can access real-time inventory tracking and reporting through our online portal.' }
     ],
   },
   {
-    slug: 'clearing-forwarding',
+    slug: 'clearing-and-forwarding',
     title: 'Clearing & Forwarding',
-    short: 'Expert customs brokerage and documentation management.',
+    short: 'Expert customs clearance, documentation, and flexible freight forwarding services partnering with leading carriers.',
     description:
-      'Navigating complex customs regulations is effortless with our licensed brokers who expedite clearance and prevent costly delays.',
-    icon: 'file-check',
-    features: ['Licensed customs brokerage', 'Tariff classification expertise', 'Duty and tax calculation support', 'Electronic documentation processing'],
-    benefits: ['Elimination of costly port demurrage fees', 'Seamless compliance with trade laws', 'Hassle-free clearance procedures'],
+      'Mukhtalif Ventures Pvt Ltd. specializes in customs clearance, freight forwarding, and logistics services since 2018. Our expert team ensures products are cleared quickly and efficiently, minimizing delays and avoiding unnecessary costs through leading shipping lines and airlines.',
+    icon: 'ShieldCheck',
+    features: [
+      'Expert navigation of complex customs regulations and procedures',
+      'Flexible freight forwarding solutions tailored to budget and requirements',
+      'Partnerships with leading shipping lines, airlines, and cargo carriers',
+      'Integrated warehousing, distribution, and transportation support'
+    ],
+    benefits: [
+      'Minimized border delays and avoidance of unnecessary costs',
+      'Complete visibility with 24/7 customer service and real-time tracking',
+      'Streamlined customs clearance and logistics operations',
+      'Budget-friendly global routing options'
+    ],
     process: [
-      { title: 'Review', text: 'Inspecting commercial invoices, bills of lading, and permits.' },
-      { title: 'Declaration', text: 'Submitting digital paperwork to customs authorities.' },
-      { title: 'Inspection', text: 'Facilitating official examinations when required.' },
-      { title: 'Release', text: 'Securing cargo release and arranging onward transport.' },
+      { title: 'Documentation', text: 'Preparing and verifying customs paperwork and declarations.' },
+      { title: 'Clearance', text: 'Liaising with port authorities to clear goods rapidly.' },
+      { title: 'Forwarding', text: 'Booking and managing space with top cargo carriers and shipping lines.' },
+      { title: 'Delivery & Tracking', text: 'Providing live visibility until final handover.' }
     ],
     faqs: [
-      { q: 'What documents are required for clearing?', a: 'Typically an invoice, packing list, bill of lading, and any product-specific certificates.' },
-      { q: 'How long does customs clearance take?', a: 'Clearance usually takes 24–48 hours once all compliant paperwork is submitted.' },
+      { q: 'How do you handle port delays?', a: 'Our experts are well-versed in procedures to clear products quickly and minimize delays.' },
+      { q: 'Is tracking available for clearing and forwarding?', a: 'Yes, through our portal with 24/7 customer support.' }
     ],
   },
   {
     slug: 'dangerous-goods-handling',
     title: 'Dangerous Goods Handling',
-    short: 'Certified, safe transport of hazardous and sensitive materials.',
+    short: 'Safe, certified packaging, labeling, documentation, and transportation of hazardous materials.',
     description:
-      'Fully compliant handling and specialized transport protocols for hazardous, chemical, and sensitive cargo, managed by certified safety experts.',
-    icon: 'shield-alert',
-    features: ['Certified Hazmat handling staff', 'Specialized containment equipment', 'Strict regulatory compliance (IATA/IMO/Local)', 'Emergency response protocols'],
-    benefits: ['Zero-compromise safety standards', 'Mitigation of legal and environmental risks', 'Authorized transport compliance documentation'],
+      'Operating since 2018, Mukhtalif Ventures Pvt Ltd. is a trusted provider of dangerous goods handling services. We combine state-of-the-art equipment, trained professionals, and strict regulatory compliance to manage hazardous materials safely and securely.',
+    icon: 'Cpu',
+    features: [
+      'Specialized packaging, labeling, and documentation services',
+      'Trained professionals experienced in handling hazardous materials',
+      'Strict adherence to local and international safety regulations',
+      'Secure, compliant transportation management'
+    ],
+    benefits: [
+      'Mitigation of complexity and risks associated with hazardous items',
+      'Guaranteed compliance with latest industry standards and laws',
+      'Tailored solutions matching unique safety requirements',
+      'Absolute peace of mind through certified operational handling'
+    ],
     process: [
-      { title: 'Classification', text: 'Verifying UN number, hazard class, and packing group requirements.' },
-      { title: 'Packaging', text: 'Ensuring materials are packed and labeled per international safety codes.' },
-      { title: 'Transport', text: 'Moving cargo via specialized, placarded vehicles or certified containers.' },
-      { title: 'Delivery', text: 'Secure unloading with trained handlers and verified receiver sign-off.' },
+      { title: 'Classification', text: 'Evaluating hazardous material properties and regulatory requirements.' },
+      { title: 'Packaging & Labeling', text: 'Applying certified packaging standards and safety labels.' },
+      { title: 'Documentation', text: 'Completing complex legal and transport declarations.' },
+      { title: 'Transport', text: 'Executing secure, regulated transit to the destination.' }
     ],
     faqs: [
-      { q: 'Are your drivers certified for hazardous materials?', a: 'Yes, all personnel handling dangerous goods undergo specialized safety certifications.' },
-      { q: 'Do you handle chemical waste or restricted materials?', a: 'We handle approved industrial and commercial hazardous goods subject to legal verification.' },
+      { q: 'Are your staff certified for hazardous materials?', a: 'Yes, our team undergoes specialized training in handling hazardous goods.' },
+      { q: 'Do you manage dangerous goods documentation?', a: 'Yes, we guide customers through all complex documentation requirements.' }
     ],
   },
   {
     slug: 'sea-freight',
     title: 'Sea Freight',
-    short: 'Cost-effective FCL and LCL container shipping across oceans.',
+    short: 'Reliable FCL, LCL, and project cargo handling delivered on time through a global partner network.',
     description:
-      'Reliable ocean freight solutions designed for bulk shipments and oversized cargo, balancing cost-efficiency with scheduled global port coverage.',
-    icon: 'ship',
-    features: ['Full Container Load (FCL) options', 'Less than Container Load (LCL) consolidation', 'Port-to-port and door-to-door services', 'Oversized and break-bulk handling'],
-    benefits: ['Significant cost savings for bulk volumes', 'High capacity for heavy or large shipments', 'Dependable global shipping schedules'],
+      'Mukhtalif Ventures Pvt Ltd. provides reliable and cost-effective sea freight services since 2018. Featuring Full Container Load (FCL), Less than Container Load (LCL), and specialized project cargo handling for oversized heavy shipments worldwide.',
+    icon: 'Globe',
+    features: [
+      'Full Container Load (FCL) and Less than Container Load (LCL) options',
+      'Specialized project cargo handling for oversized and heavy shipments',
+      'Global network of trusted partners and agents spanning international ports',
+      'Real-time shipment monitoring and milestone tracking technology'
+    ],
+    benefits: [
+      'Cost-effective bulk and fractional shipping solutions',
+      'Tailored cargo handling matching unique volume needs',
+      'End-to-end status visibility across global maritime routes',
+      'Consistent on-time delivery performance in perfect condition'
+    ],
     process: [
-      { title: 'Booking & Planning', text: 'Selecting container type and securing vessel space.' },
-      { title: 'Stuffing', text: 'Loading and securing cargo securely inside containers.' },
-      { title: 'Ocean Transit', text: 'Scheduled maritime shipping across major ocean routes.' },
-      { title: 'Unloading', text: 'Port handling, container de-stuffing, and final transport dispatch.' },
+      { title: 'Booking & Evaluation', text: 'Determining whether FCL, LCL, or project cargo fits best.' },
+      { title: 'Port Staging', text: 'Consolidating and containerizing goods securely.' },
+      { title: 'Ocean Transit', text: 'Monitoring maritime movement via global partner networks.' },
+      { title: 'Port Discharge', text: 'Clearing and dispatching cargo to the final destination.' }
     ],
     faqs: [
-      { q: 'What is the difference between FCL and LCL?', a: 'FCL gives you an entire container to yourself, while LCL lets you share container space for smaller shipments.' },
-      { q: 'How long does sea freight take?', a: 'Transit times vary widely by destination port, usually ranging from 1 to 6 weeks.' },
+      { q: 'What is the difference between FCL and LCL?', a: 'FCL uses a full container for your cargo, while LCL consolidates smaller shipments.' },
+      { q: 'Can you handle heavy or oversized cargo?', a: 'Yes, we offer specialized project cargo handling services for heavy and oversized goods.' }
     ],
   },
 ];
 
 export const stats = [
-  { label: 'Cities Served', value: 300, suffix: '+' },
-  { label: 'Shipments Handled', value: 1000, suffix: '+' },
-  { label: 'Years Experience', value: 25, suffix: '+' },
-  { label: 'Coverage', value: 100, suffix: '%', note: 'Nationwide & Global' },
+  { value: '50', suffix: '', label: 'Company Employees' },
+  { value: '30', suffix: '+', label: 'Satisfied Clients' },
+  { value: '100', suffix: 'k', label: 'Tones Transported' },
+  { value: '2018', suffix: '', label: 'Established Year', note: 'Industry Experience' },
 ];
 
 export const testimonials = [
@@ -156,25 +216,24 @@ export const testimonials = [
 export const partners = ['MedCore Pharma', 'Alpine Retail Group', 'Vantage Health', 'Kashmir Foods', 'CityCare Hospitals', 'Northline Distributors'];
 
 export const timeline = [
-  { year: '1999', title: 'Founded', text: 'Started as a regional logistics operator.' },
-  { year: '2007', title: 'Expansion', text: 'Introduced specialized transport fleets.' },
-  { year: '2014', title: 'National network', text: 'Expanded warehousing and distribution coverage.' },
-  { year: '2021', title: 'Digital tracking', text: 'Rolled out live shipment tracking for all clients.' },
-  { year: '2026', title: 'Modernization', text: 'Deepened investment in digital logistics infrastructure.' },
+  { year: '2018', title: 'Company Inception', text: 'Founded with a commitment to providing innovative and reliable distribution solutions in Pakistan.' },
+  { year: '2020', title: 'Network Expansion', text: 'Scaled our warehousing and temperature-controlled logistics capabilities nationwide.' },
+  { year: '2023', title: 'Technology Integration', text: 'Rolled out advanced digital portals, real-time tracking, and automated inventory systems.' },
+  { year: '2026', title: 'Industry Leadership', text: 'Recognized as a leading diversified conglomerate and trusted logistics partner across Pakistan.' }
 ];
 
 export const values = [
-  { title: 'Reliability', text: 'We deliver on the window we commit to, every time.' },
-  { title: 'Compliance', text: 'Handling standards are built to meet strict regulatory scrutiny.' },
-  { title: 'Transparency', text: 'Every shipment is visible, end to end, no exceptions.' },
-  { title: 'Care', text: 'Client goods are handled with utmost professionalism and safety.' },
+  { title: 'Customer First', text: 'We endeavor to comprehend what clients need and take care of you through meaningful relationships.' },
+  { title: 'Employee Heart', text: 'Happy workers create happy clients. Our legacy employees drive our core commitment.' },
+  { title: 'Safety & Compliance', text: 'Uncompromising adherence to regulations, especially for temperature-controlled and hazardous goods.' },
+  { title: 'Innovation', text: 'Continuously investing in technology and infrastructure to exceed client expectations.' }
 ];
 
 export const leadership = [
-  { name: 'Omar Farooqi', role: 'Chief Executive Officer' },
-  { name: 'Nadia Khan', role: 'Chief Operating Officer' },
-  { name: 'Hassan Iqbal', role: 'Head of Operations' },
-  { name: 'Zara Ahmed', role: 'Head of Network & Fleet' },
+  { name: 'Management Board', role: 'Executive Operations' },
+  { name: 'Supply Chain Directors', role: 'Logistics Strategy' },
+  { name: 'Warehouse Heads', role: 'Facility Management' },
+  { name: 'Compliance Leads', role: 'Regulatory & Safety' }
 ];
 
 export const openPositions = [
