@@ -139,13 +139,15 @@ export default function CareersPage() {
 
             <div>
               <label className="block text-[11px] font-bold text-[#111827] uppercase tracking-wider mb-1.5">Position Applying For</label>
-              <select required className="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#2563EB] focus:bg-white transition-all">
-                <option value="">Select a role...</option>
-                {openRoles.map((r) => (
-                  <option key={r.title} value={r.title}>{r.title}</option>
-                ))}
-                <option value="General Application">General Talent Pool</option>
-              </select>
+                    <select className="w-full rounded-card border border-surface-border bg-surface-gray px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue focus:bg-white transition-all">
+                      <option>Select service...</option>
+                      <option>Local Logistics</option>
+                      <option>International Logistics</option>
+                      <option>Warehousing Management</option>
+                      <option>Clearing & Forwading</option>
+                      <option>Dangerous Good Handling</option>
+                      <option>Sea Freight</option>
+                    </select>
             </div>
 
             <div>

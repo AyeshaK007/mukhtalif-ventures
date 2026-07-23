@@ -91,12 +91,12 @@ export default function ContactPage() {
                     <label className="block text-[11px] font-bold text-ink-heading uppercase tracking-wider mb-1.5">Service Interested In</label>
                     <select className="w-full rounded-card border border-surface-border bg-surface-gray px-4 py-3.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue focus:bg-white transition-all">
                       <option>Select service...</option>
-                      <option>Road Freight</option>
-                      <option>Warehousing</option>
-                      <option>Healthcare Logistics</option>
-                      <option>Cold Chain</option>
-                      <option>Quote Request</option>
-                      <option>General Inquiry</option>
+                      <option>Local Logistics</option>
+                      <option>International Logistics</option>
+                      <option>Warehousing Management</option>
+                      <option>Clearing & Forwading</option>
+                      <option>Dangerous Good Handling</option>
+                      <option>Sea Freight</option>
                     </select>
                   </div>
                 </div>
